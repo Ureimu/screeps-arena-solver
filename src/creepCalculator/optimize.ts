@@ -1,5 +1,6 @@
 import { BodyPartConstant, BODYPARTS_ALL, BODYPART_COST, WalkableTerrainType } from "commons/constants";
 import { CreepAbilityConstantsList, CreepAbilityPartBaseNum, CreepOutput, fatigueByPart } from "commons/inits/creep";
+import _ from "lodash";
 import * as solver from "javascript-lp-solver";
 export const choicesList: CreepConstraints[] = [
     "part:attack",

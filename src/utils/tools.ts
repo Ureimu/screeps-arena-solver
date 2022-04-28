@@ -1,5 +1,5 @@
 import { BodyPartConstant, BODYPART_COST } from "commons/constants";
-
+import _ from "lodash";
 export const bodyAbbreviation: { [name: string]: BodyPartConstant } = {
     m: "move",
     w: "work",
